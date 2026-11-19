@@ -1,0 +1,36 @@
+{
+ "dev": {
+  "gt": 19,
+  "tp": 3,
+  "fn": 16,
+  "fp": 5,
+  "event_recall": 0.158,
+  "event_precision": 0.375,
+  "latency_median_s": 0.56,
+  "latency_max_s": 4.08
+ },
+ "test": {
+  "gt": 14,
+  "tp": 0,
+  "fn": 14,
+  "fp": 5,
+  "event_recall": 0.0,
+  "event_precision": 0.0,
+  "latency_median_s": null,
+  "latency_max_s": null
+ },
+ "all": {
+  "gt": 33,
+  "tp": 3,
+  "fn": 30,
+  "fp": 10,
+  "event_recall": 0.091,
+  "event_precision": 0.231,
+  "latency_median_s": 0.56,
+  "latency_max_s": 4.08
+ },
+ "speed": {
+  "inference_ms_mean": 38.96,
+  "fps_end_to_end_mean": 23.55
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "split": "test",
+ "model": "../train/runs/ft_v1/weights/best.pt",
+ "imgsz": 640,
+ "precision": 0.6705,
+ "recall": 0.5537,
+ "mAP50": 0.6044,
+ "mAP50_95": 0.3454,
+ "speed_ms_per_img": {
+  "preprocess": 0.24,
+  "inference": 4.68,
+  "loss": 0.0,
+  "postprocess": 1.92
+ }
+}

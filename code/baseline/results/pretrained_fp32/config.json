@@ -1,0 +1,9 @@
+{
+ "model": "../models/yolo11n.pt",
+ "device": "cpu",
+ "imgsz": 640,
+ "conf": 0.25,
+ "confirm": 8,
+ "tag": "pretrained_fp32",
+ "videos": null
+}

@@ -1,0 +1,44 @@
+[
+ {
+  "model": "openvino_fp32",
+  "path": "..\\models\\ft_v1_fp32_416_openvino_model",
+  "threads": 4,
+  "n_frames": 295,
+  "size_mb": 10.33,
+  "core": {
+   "median_ms": 18.52,
+   "p95_ms": 28.31,
+   "mean_ms": 19.77,
+   "fps_median": 54.0
+  },
+  "ram_model_mb": 99.5,
+  "e2e": {
+   "median_ms": 24.14,
+   "p95_ms": 36.86,
+   "mean_ms": 25.34,
+   "fps_median": 41.4
+  },
+  "ram_peak_process_mb": 1837.6
+ },
+ {
+  "model": "openvino_int8",
+  "path": "..\\models\\ft_v1_int8_c300_416_openvino_model",
+  "threads": 4,
+  "n_frames": 295,
+  "size_mb": 3.23,
+  "core": {
+   "median_ms": 7.99,
+   "p95_ms": 10.62,
+   "mean_ms": 8.28,
+   "fps_median": 125.2
+  },
+  "ram_model_mb": 93.3,
+  "e2e": {
+   "median_ms": 10.87,
+   "p95_ms": 15.34,
+   "mean_ms": 11.24,
+   "fps_median": 92.0
+  },
+  "ram_peak_process_mb": 1816.8
+ }
+]

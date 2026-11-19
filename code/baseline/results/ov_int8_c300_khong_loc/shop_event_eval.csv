@@ -1,0 +1,5 @@
+video,zone,gt,tp,fn,fp,lat_med_s,minutes
+Video1,Z1,0,0,0,13,,3.86
+Video1,Z3,36,30,6,2,0.32,3.86
+Video2,Z1,2,2,0,18,21.44,6.37
+Video2,Z3,25,24,1,6,0.28,6.37

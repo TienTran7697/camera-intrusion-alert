@@ -1,0 +1,54 @@
+{
+ "rows": [
+  {
+   "video": "Video1",
+   "zone": "Z1",
+   "gt": 0,
+   "tp": 0,
+   "fn": 0,
+   "fp": 1,
+   "lat_med_s": "",
+   "minutes": 3.86
+  },
+  {
+   "video": "Video1",
+   "zone": "Z3",
+   "gt": 36,
+   "tp": 25,
+   "fn": 11,
+   "fp": 3,
+   "lat_med_s": 0.32,
+   "minutes": 3.86
+  },
+  {
+   "video": "Video2",
+   "zone": "Z1",
+   "gt": 2,
+   "tp": 2,
+   "fn": 0,
+   "fp": 8,
+   "lat_med_s": 42.04,
+   "minutes": 6.37
+  },
+  {
+   "video": "Video2",
+   "zone": "Z3",
+   "gt": 25,
+   "tp": 22,
+   "fn": 3,
+   "fp": 1,
+   "lat_med_s": 0.28,
+   "minutes": 6.37
+  }
+ ],
+ "total": {
+  "gt": 63,
+  "tp": 49,
+  "fn": 14,
+  "fp": 13,
+  "recall": 0.778,
+  "precision": 0.79,
+  "fp_per_hour": 76.2,
+  "fps": 29.68
+ }
+}

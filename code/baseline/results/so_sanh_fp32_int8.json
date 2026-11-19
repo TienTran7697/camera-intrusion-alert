@@ -1,0 +1,194 @@
+{
+ "PyTorch FP32 | khong loc": {
+  "dev": {
+   "gt": 19,
+   "tp": 18,
+   "fn": 1,
+   "fp": 5,
+   "event_recall": 0.947,
+   "event_precision": 0.783,
+   "latency_median_s": 0.3,
+   "latency_max_s": 1.48
+  },
+  "test": {
+   "gt": 14,
+   "tp": 14,
+   "fn": 0,
+   "fp": 1,
+   "event_recall": 1.0,
+   "event_precision": 0.933,
+   "latency_median_s": 0.28,
+   "latency_max_s": 2.16
+  },
+  "shop": {
+   "gt": 63,
+   "tp": 54,
+   "fn": 9,
+   "fp": 37,
+   "recall": 0.857,
+   "precision": 0.593,
+   "fp_per_hour": 217.0,
+   "fps": 29.77
+  }
+ },
+ "PyTorch FP32 | min_conf 0,5": {
+  "dev": {
+   "gt": 19,
+   "tp": 18,
+   "fn": 1,
+   "fp": 3,
+   "event_recall": 0.947,
+   "event_precision": 0.857,
+   "latency_median_s": 0.38,
+   "latency_max_s": 1.48
+  },
+  "test": {
+   "gt": 14,
+   "tp": 14,
+   "fn": 0,
+   "fp": 0,
+   "event_recall": 1.0,
+   "event_precision": 1.0,
+   "latency_median_s": 0.34,
+   "latency_max_s": 3.36
+  },
+  "shop": {
+   "gt": 63,
+   "tp": 42,
+   "fn": 21,
+   "fp": 2,
+   "recall": 0.667,
+   "precision": 0.955,
+   "fp_per_hour": 11.7,
+   "fps": 29.77
+  }
+ },
+ "OpenVINO FP32 | khong loc": {
+  "dev": {
+   "gt": 19,
+   "tp": 18,
+   "fn": 1,
+   "fp": 5,
+   "event_recall": 0.947,
+   "event_precision": 0.783,
+   "latency_median_s": 0.3,
+   "latency_max_s": 1.48
+  },
+  "test": {
+   "gt": 14,
+   "tp": 14,
+   "fn": 0,
+   "fp": 0,
+   "event_recall": 1.0,
+   "event_precision": 1.0,
+   "latency_median_s": 0.28,
+   "latency_max_s": 2.12
+  },
+  "shop": {
+   "gt": 63,
+   "tp": 53,
+   "fn": 10,
+   "fp": 39,
+   "recall": 0.841,
+   "precision": 0.576,
+   "fp_per_hour": 228.7,
+   "fps": 29.77
+  }
+ },
+ "OpenVINO FP32 | min_conf 0,5": {
+  "dev": {
+   "gt": 19,
+   "tp": 18,
+   "fn": 1,
+   "fp": 2,
+   "event_recall": 0.947,
+   "event_precision": 0.9,
+   "latency_median_s": 0.34,
+   "latency_max_s": 1.48
+  },
+  "test": {
+   "gt": 14,
+   "tp": 14,
+   "fn": 0,
+   "fp": 0,
+   "event_recall": 1.0,
+   "event_precision": 1.0,
+   "latency_median_s": 0.34,
+   "latency_max_s": 2.72
+  },
+  "shop": {
+   "gt": 63,
+   "tp": 43,
+   "fn": 20,
+   "fp": 2,
+   "recall": 0.683,
+   "precision": 0.956,
+   "fp_per_hour": 11.7,
+   "fps": 29.77
+  }
+ },
+ "OpenVINO INT8 | khong loc": {
+  "dev": {
+   "gt": 19,
+   "tp": 18,
+   "fn": 1,
+   "fp": 6,
+   "event_recall": 0.947,
+   "event_precision": 0.75,
+   "latency_median_s": 0.28,
+   "latency_max_s": 1.64
+  },
+  "test": {
+   "gt": 14,
+   "tp": 14,
+   "fn": 0,
+   "fp": 1,
+   "event_recall": 1.0,
+   "event_precision": 0.933,
+   "latency_median_s": 0.28,
+   "latency_max_s": 2.2
+  },
+  "shop": {
+   "gt": 63,
+   "tp": 56,
+   "fn": 7,
+   "fp": 39,
+   "recall": 0.889,
+   "precision": 0.589,
+   "fp_per_hour": 228.7,
+   "fps": 29.77
+  }
+ },
+ "OpenVINO INT8 | min_conf 0,5": {
+  "dev": {
+   "gt": 19,
+   "tp": 18,
+   "fn": 1,
+   "fp": 4,
+   "event_recall": 0.947,
+   "event_precision": 0.818,
+   "latency_median_s": 0.34,
+   "latency_max_s": 1.64
+  },
+  "test": {
+   "gt": 14,
+   "tp": 13,
+   "fn": 1,
+   "fp": 0,
+   "event_recall": 0.929,
+   "event_precision": 1.0,
+   "latency_median_s": 0.28,
+   "latency_max_s": 3.08
+  },
+  "shop": {
+   "gt": 63,
+   "tp": 43,
+   "fn": 20,
+   "fp": 3,
+   "recall": 0.683,
+   "precision": 0.935,
+   "fp_per_hour": 17.6,
+   "fps": 29.77
+  }
+ }
+}

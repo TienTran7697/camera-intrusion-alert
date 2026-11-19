@@ -1,0 +1,65 @@
+[
+ {
+  "model": "pytorch_fp32",
+  "path": "..\\models\\ft_v1.pt",
+  "threads": 0,
+  "n_frames": 295,
+  "size_mb": 5.27,
+  "core": {
+   "median_ms": 79.48,
+   "p95_ms": 82.85,
+   "mean_ms": 79.98,
+   "fps_median": 12.6
+  },
+  "ram_model_mb": 551.9,
+  "e2e": {
+   "median_ms": 43.16,
+   "p95_ms": 51.18,
+   "mean_ms": 43.61,
+   "fps_median": 23.2
+  },
+  "ram_peak_process_mb": 2550.5
+ },
+ {
+  "model": "openvino_fp32",
+  "path": "..\\models\\ft_v1_fp32_openvino_model",
+  "threads": 0,
+  "n_frames": 295,
+  "size_mb": 10.38,
+  "core": {
+   "median_ms": 38.41,
+   "p95_ms": 44.11,
+   "mean_ms": 39.1,
+   "fps_median": 26.0
+  },
+  "ram_model_mb": 116.6,
+  "e2e": {
+   "median_ms": 43.84,
+   "p95_ms": 48.53,
+   "mean_ms": 44.28,
+   "fps_median": 22.8
+  },
+  "ram_peak_process_mb": 2667.6
+ },
+ {
+  "model": "openvino_int8",
+  "path": "..\\models\\ft_v1_int8_c300_openvino_model",
+  "threads": 0,
+  "n_frames": 295,
+  "size_mb": 3.29,
+  "core": {
+   "median_ms": 17.58,
+   "p95_ms": 19.25,
+   "mean_ms": 17.7,
+   "fps_median": 56.9
+  },
+  "ram_model_mb": 101.9,
+  "e2e": {
+   "median_ms": 22.67,
+   "p95_ms": 26.35,
+   "mean_ms": 22.98,
+   "fps_median": 44.1
+  },
+  "ram_peak_process_mb": 2625.0
+ }
+]

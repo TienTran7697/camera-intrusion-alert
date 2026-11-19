@@ -1,0 +1,7 @@
+# Human Dataset (Kaggle, fareselmenshawii) - đã sắp xếp lại bởi work/split_dataset.py (seed=42)
+path: D:/7.UIT/14.TTNT_Cho_He_Thong_Nhung/Claude/Dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: person

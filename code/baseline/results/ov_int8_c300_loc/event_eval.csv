@@ -1,0 +1,11 @@
+video,set,gt_events,alerts,tp,fn,fp,fps,inference_ms
+Browse1,dev,3,3,3,0,0,12.0,75.24
+Browse2,dev,1,1,1,0,0,12.81,72.49
+Browse3,test,1,1,1,0,0,12.6,74.36
+Browse4,test,2,2,2,0,0,13.05,71.74
+Meet_Crowd,dev,4,4,4,0,0,16.57,55.41
+Meet_WalkSplit,dev,8,8,7,1,1,16.8,54.21
+Meet_WalkTogether1,test,5,5,5,0,0,16.79,54.91
+Walk1,dev,3,6,3,0,3,16.82,54.3
+Walk2,test,3,2,2,1,0,15.6,58.8
+Walk3,test,3,3,3,0,0,15.1,61.44

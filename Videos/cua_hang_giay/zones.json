@@ -1,0 +1,126 @@
+{
+ "frame_size": [
+  2560,
+  1440
+ ],
+ "fps": 25,
+ "note": "Toa do theo video goc 2560x1440. Khi xu ly o 1280x720 thi chia 2. Chot 18/11/2026. Z1 sua lai 18/11/2026 cho khop mep buc (ban dau lan xuong san khoang 10 px).",
+ "videos": {
+  "Video1": [
+   {
+    "zone_id": "Z1",
+    "name": "Buc trung bay ben trai",
+    "polygon": [
+     [
+      234,
+      830
+     ],
+     [
+      320,
+      700
+     ],
+     [
+      600,
+      464
+     ],
+     [
+      684,
+      476
+     ],
+     [
+      692,
+      500
+     ],
+     [
+      268,
+      934
+     ],
+     [
+      244,
+      924
+     ]
+    ]
+   },
+   {
+    "zone_id": "Z3",
+    "name": "Loi di giua doan gan camera (gia lap loi thoat hiem)",
+    "polygon": [
+     [
+      1210,
+      860
+     ],
+     [
+      1580,
+      860
+     ],
+     [
+      1650,
+      1120
+     ],
+     [
+      1210,
+      1120
+     ]
+    ]
+   }
+  ],
+  "Video2": [
+   {
+    "zone_id": "Z1",
+    "name": "Buc trung bay ben trai",
+    "polygon": [
+     [
+      234,
+      830
+     ],
+     [
+      320,
+      700
+     ],
+     [
+      600,
+      464
+     ],
+     [
+      684,
+      476
+     ],
+     [
+      692,
+      500
+     ],
+     [
+      268,
+      934
+     ],
+     [
+      244,
+      924
+     ]
+    ]
+   },
+   {
+    "zone_id": "Z3",
+    "name": "Loi di giua doan gan camera (gia lap loi thoat hiem)",
+    "polygon": [
+     [
+      1210,
+      860
+     ],
+     [
+      1580,
+      860
+     ],
+     [
+      1650,
+      1120
+     ],
+     [
+      1210,
+      1120
+     ]
+    ]
+   }
+  ]
+ }
+}

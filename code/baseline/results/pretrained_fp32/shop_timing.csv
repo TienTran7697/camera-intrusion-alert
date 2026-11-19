@@ -1,0 +1,3 @@
+video,frames,inference_ms,wall_s,fps_end_to_end
+Video1,5793,15.64,200.8,28.86
+Video2,9556,15.15,316.4,30.2

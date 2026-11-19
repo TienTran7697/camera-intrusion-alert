@@ -1,0 +1,20 @@
+# Python 3.12 (đã thử trên Windows 11, Python 3.12.4)
+# BƯỚC 1 – cài PyTorch TRƯỚC (chọn MỘT dòng):
+#   Có GPU NVIDIA (để huấn luyện):  pip install torch==2.11.0 torchvision==0.26.0 --index-url https://download.pytorch.org/whl/cu128
+#   Chỉ có CPU (đủ để chạy app demo): pip install torch==2.11.0 torchvision==0.26.0 --index-url https://download.pytorch.org/whl/cpu
+# BƯỚC 2 – cài các gói còn lại:  pip install -r requirements.txt
+
+ultralytics==8.4.215
+opencv-python==5.1.0.95
+numpy==2.0.0
+lap==0.5.14
+openvino==2026.4.1
+nncf==3.4.0
+PySide6-Essentials==6.12.0
+psutil==7.2.2
+pillow==10.4.0
+matplotlib==3.9.0
+openpyxl==3.1.5
+
+# Tùy chọn – chỉ cần khi dựng lại slide (work/slide/build_slides.py)
+# python-pptx==1.0.2

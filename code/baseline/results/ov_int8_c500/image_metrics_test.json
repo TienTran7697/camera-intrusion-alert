@@ -1,0 +1,15 @@
+{
+ "split": "test",
+ "model": "../models/ft_v1_int8_c500_openvino_model",
+ "imgsz": 640,
+ "precision": 0.6601,
+ "recall": 0.5561,
+ "mAP50": 0.6019,
+ "mAP50_95": 0.3429,
+ "speed_ms_per_img": {
+  "preprocess": 1.76,
+  "inference": 11.76,
+  "loss": 0.0,
+  "postprocess": 1.83
+ }
+}

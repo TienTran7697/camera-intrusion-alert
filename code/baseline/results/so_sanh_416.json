@@ -1,0 +1,130 @@
+{
+ "ov_fp32_416|khong loc": {
+  "dev": {
+   "gt": 19,
+   "tp": 18,
+   "fn": 1,
+   "fp": 8,
+   "event_recall": 0.947,
+   "event_precision": 0.692,
+   "latency_median_s": 0.3,
+   "latency_max_s": 1.4
+  },
+  "test": {
+   "gt": 14,
+   "tp": 13,
+   "fn": 1,
+   "fp": 1,
+   "event_recall": 0.929,
+   "event_precision": 0.929,
+   "latency_median_s": 0.32,
+   "latency_max_s": 3.6
+  },
+  "shop": {
+   "gt": 63,
+   "tp": 49,
+   "fn": 14,
+   "fp": 15,
+   "recall": 0.778,
+   "precision": 0.766,
+   "fp_per_hour": 88.0,
+   "fps": 29.77
+  }
+ },
+ "ov_fp32_416|min_conf 0,5": {
+  "dev": {
+   "gt": 19,
+   "tp": 17,
+   "fn": 2,
+   "fp": 6,
+   "event_recall": 0.895,
+   "event_precision": 0.739,
+   "latency_median_s": 0.32,
+   "latency_max_s": 1.72
+  },
+  "test": {
+   "gt": 14,
+   "tp": 13,
+   "fn": 1,
+   "fp": 1,
+   "event_recall": 0.929,
+   "event_precision": 0.929,
+   "latency_median_s": 0.32,
+   "latency_max_s": 4.24
+  },
+  "shop": {
+   "gt": 63,
+   "tp": 22,
+   "fn": 41,
+   "fp": 3,
+   "recall": 0.349,
+   "precision": 0.88,
+   "fp_per_hour": 17.6,
+   "fps": 29.77
+  }
+ },
+ "ov_int8_c300_416|khong loc": {
+  "dev": {
+   "gt": 19,
+   "tp": 18,
+   "fn": 1,
+   "fp": 5,
+   "event_recall": 0.947,
+   "event_precision": 0.783,
+   "latency_median_s": 0.3,
+   "latency_max_s": 8.2
+  },
+  "test": {
+   "gt": 14,
+   "tp": 13,
+   "fn": 1,
+   "fp": 2,
+   "event_recall": 0.929,
+   "event_precision": 0.867,
+   "latency_median_s": 0.32,
+   "latency_max_s": 3.6
+  },
+  "shop": {
+   "gt": 63,
+   "tp": 49,
+   "fn": 14,
+   "fp": 21,
+   "recall": 0.778,
+   "precision": 0.7,
+   "fp_per_hour": 123.1,
+   "fps": 29.77
+  }
+ },
+ "ov_int8_c300_416|min_conf 0,5": {
+  "dev": {
+   "gt": 19,
+   "tp": 17,
+   "fn": 2,
+   "fp": 4,
+   "event_recall": 0.895,
+   "event_precision": 0.81,
+   "latency_median_s": 0.36,
+   "latency_max_s": 8.32
+  },
+  "test": {
+   "gt": 14,
+   "tp": 12,
+   "fn": 2,
+   "fp": 1,
+   "event_recall": 0.857,
+   "event_precision": 0.923,
+   "latency_median_s": 0.3,
+   "latency_max_s": 4.2
+  },
+  "shop": {
+   "gt": 63,
+   "tp": 24,
+   "fn": 39,
+   "fp": 3,
+   "recall": 0.381,
+   "precision": 0.889,
+   "fp_per_hour": 17.6,
+   "fps": 29.77
+  }
+ }
+}

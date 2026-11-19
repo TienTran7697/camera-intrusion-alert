@@ -1,0 +1,9 @@
+{
+ "model": "../train/runs/ft_v1/weights/best.pt",
+ "device": "cpu",
+ "imgsz": 640,
+ "conf": 0.25,
+ "confirm": 8,
+ "tag": "ft_v1",
+ "videos": null
+}

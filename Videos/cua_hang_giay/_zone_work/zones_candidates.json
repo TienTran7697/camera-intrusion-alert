@@ -1,0 +1,8 @@
+{"frame_size": [1280, 720],
+ "note": "Toa do tren khung 1280x720; nhan 2 de ra toa do video goc 2560x1440",
+ "zones": {
+  "Z1": {"ten": "Buc trung bay ben trai", "polygon": [[110,395],[240,320],[335,240],[350,255],[145,468],[120,465]]},
+  "Z2": {"ten": "San goc duoi ben trai (gia lap loi nhan vien)", "polygon": [[0,545],[120,515],[330,505],[290,600],[270,720],[0,720]]},
+  "Z3": {"ten": "Loi di giua doan gan camera (gia lap loi thoat hiem)", "polygon": [[605,430],[790,430],[825,560],[605,560]]},
+  "Z4": {"ten": "Khu truoc quay hop giay (gia lap kho)", "polygon": [[600,248],[792,248],[798,298],[600,298]]}
+ }}

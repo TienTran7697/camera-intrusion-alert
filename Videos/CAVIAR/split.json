@@ -1,0 +1,5 @@
+{
+ "note": "De xuat chia video CAVIAR (vung A). dev: chinh nguong, test: chi danh gia cuoi. Chua chot - cho nhom duyet.",
+ "dev":  ["Browse1", "Browse2", "Meet_Crowd", "Meet_WalkSplit", "Walk1"],
+ "test": ["Browse3", "Browse4", "Meet_WalkTogether1", "Walk2", "Walk3"]
+}

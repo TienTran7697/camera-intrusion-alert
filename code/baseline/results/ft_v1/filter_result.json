@@ -1,0 +1,188 @@
+{
+ "config": {
+  "min_conf": 0.5,
+  "min_age": 0,
+  "born_outside": false,
+  "min_move": 0.0
+ },
+ "khong_loc": {
+  "dev": {
+   "gt": 19,
+   "tp": 18,
+   "fn": 1,
+   "fp": 5,
+   "event_recall": 0.947,
+   "event_precision": 0.783,
+   "latency_median_s": 0.3,
+   "latency_max_s": 1.48
+  },
+  "test": {
+   "gt": 14,
+   "tp": 14,
+   "fn": 0,
+   "fp": 1,
+   "event_recall": 1.0,
+   "event_precision": 0.933,
+   "latency_median_s": 0.28,
+   "latency_max_s": 2.16
+  },
+  "all": {
+   "gt": 33,
+   "tp": 32,
+   "fn": 1,
+   "fp": 6,
+   "event_recall": 0.97,
+   "event_precision": 0.842,
+   "latency_median_s": 0.28,
+   "latency_max_s": 2.16
+  },
+  "speed": {
+   "inference_ms_mean": 63.29,
+   "fps_end_to_end_mean": 14.81
+  },
+  "shop": {
+   "rows": [
+    {
+     "video": "Video1",
+     "zone": "Z1",
+     "gt": 0,
+     "tp": 0,
+     "fn": 0,
+     "fp": 15,
+     "lat_med_s": "",
+     "minutes": 3.86
+    },
+    {
+     "video": "Video1",
+     "zone": "Z3",
+     "gt": 36,
+     "tp": 29,
+     "fn": 7,
+     "fp": 1,
+     "lat_med_s": 0.32,
+     "minutes": 3.86
+    },
+    {
+     "video": "Video2",
+     "zone": "Z1",
+     "gt": 2,
+     "tp": 1,
+     "fn": 1,
+     "fp": 12,
+     "lat_med_s": 10.08,
+     "minutes": 6.37
+    },
+    {
+     "video": "Video2",
+     "zone": "Z3",
+     "gt": 25,
+     "tp": 24,
+     "fn": 1,
+     "fp": 9,
+     "lat_med_s": 0.28,
+     "minutes": 6.37
+    }
+   ],
+   "total": {
+    "gt": 63,
+    "tp": 54,
+    "fn": 9,
+    "fp": 37,
+    "recall": 0.857,
+    "precision": 0.593,
+    "fp_per_hour": 217.0,
+    "fps": 29.77
+   }
+  }
+ },
+ "loc": {
+  "dev": {
+   "gt": 19,
+   "tp": 18,
+   "fn": 1,
+   "fp": 3,
+   "event_recall": 0.947,
+   "event_precision": 0.857,
+   "latency_median_s": 0.38,
+   "latency_max_s": 1.48
+  },
+  "test": {
+   "gt": 14,
+   "tp": 14,
+   "fn": 0,
+   "fp": 0,
+   "event_recall": 1.0,
+   "event_precision": 1.0,
+   "latency_median_s": 0.34,
+   "latency_max_s": 3.36
+  },
+  "all": {
+   "gt": 33,
+   "tp": 32,
+   "fn": 1,
+   "fp": 3,
+   "event_recall": 0.97,
+   "event_precision": 0.914,
+   "latency_median_s": 0.38,
+   "latency_max_s": 3.36
+  },
+  "speed": {
+   "inference_ms_mean": 63.29,
+   "fps_end_to_end_mean": 14.81
+  },
+  "shop": {
+   "rows": [
+    {
+     "video": "Video1",
+     "zone": "Z1",
+     "gt": 0,
+     "tp": 0,
+     "fn": 0,
+     "fp": 0,
+     "lat_med_s": "",
+     "minutes": 3.86
+    },
+    {
+     "video": "Video1",
+     "zone": "Z3",
+     "gt": 36,
+     "tp": 19,
+     "fn": 17,
+     "fp": 0,
+     "lat_med_s": 0.32,
+     "minutes": 3.86
+    },
+    {
+     "video": "Video2",
+     "zone": "Z1",
+     "gt": 2,
+     "tp": 0,
+     "fn": 2,
+     "fp": 0,
+     "lat_med_s": "",
+     "minutes": 6.37
+    },
+    {
+     "video": "Video2",
+     "zone": "Z3",
+     "gt": 25,
+     "tp": 23,
+     "fn": 2,
+     "fp": 2,
+     "lat_med_s": 0.28,
+     "minutes": 6.37
+    }
+   ],
+   "total": {
+    "gt": 63,
+    "tp": 42,
+    "fn": 21,
+    "fp": 2,
+    "recall": 0.667,
+    "precision": 0.955,
+    "fp_per_hour": 11.7,
+    "fps": 29.77
+   }
+  }
+ }
+}

@@ -1,0 +1,59 @@
+# ---- Python / hệ điều hành
+__pycache__/
+*.pyc
+.venv/
+venv/
+~$*
+*.tmp
+Thumbs.db
+desktop.ini
+
+# ---- Nhật ký chạy (có đường dẫn máy cá nhân, tạo lại được)
+*.log
+
+# ---- Dữ liệu lớn: tải lại theo README (video CAVIAR: python code/download_data.py)
+Videos/CAVIAR/*/*.mpg
+Dataset/images/
+Dataset/labels/
+Dataset/_removed/
+Dataset/caviar_dev/
+Dataset/calib/
+*.cache
+
+# ---- Tệp trung gian của video (tạo lại được bằng script)
+Videos/_review/
+Videos/cua_hang_giay/720p/
+Videos/cua_hang_giay/_label_work/*.jpg
+Videos/cua_hang_giay/_zone_work/*grid*.png
+Videos/cua_hang_giay/_zone_work/*check*.png
+Videos/cua_hang_giay/_zone_work/z1_fine.png
+
+# ---- Kết quả khi chạy ứng dụng (bằng chứng vi phạm, events.db)
+outputs/
+
+# ---- Mô hình lớn hơn 100 MB (GitHub không nhận) – tải theo README
+code/models/yolo11x.pt
+
+# ---- Bản sao trọng số trong thư mục huấn luyện (đã có code/models/ft_v1.pt)
+code/train/runs/*/weights/
+
+# ---- Thư mục tạm của Ultralytics khi đánh giá
+code/baseline/results/**/val_test/
+code/baseline/results/**/val_val/
+code/baseline/results/_*/
+
+# ---- Thư mục làm việc khi dựng báo cáo / slide
+work/unpacked/
+work/report/u/
+work/report/*.docx
+work/report/chk*.jpg
+work/report/sheet.jpg
+work/tuan/moi/
+work/tuan/u_tmp/
+work/tuan/moi_tuan*.docx
+work/slide/u/
+work/slide/o/
+work/slide/mau_png/
+work/slide/out_png/
+work/slide/*.jpg
+work/*.bak.xlsx
